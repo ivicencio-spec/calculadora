@@ -177,15 +177,25 @@ body {
     flex-direction: column;
   }
 }
-footer, a{
-  background-color:#aa40af;
+
+footer{
+  background-color:black;
   color:white;
   text-align:center;
+  padding:2rem;
   margin-top:2rem;
-}
+  }
 
 .social a{
-  color:white;
+  display:inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  background-color:#ffffff;
+  color:rgb(0, 0, 0);
+  border-radius: 50%;
+  text-decoration:none;
   margin: 0 1rem;
   font-size:1.2rem;
-}
+  }
